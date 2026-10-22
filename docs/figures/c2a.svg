@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" font-family="Segoe UI, Helvetica, Arial, sans-serif">
+  <defs>
+    <marker id="a" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0,0 L10,5 L0,10 z" fill="#57606a"/>
+    </marker>
+    <style>
+      .t{font-size:14px;font-weight:600;fill:#1f2328;text-anchor:middle}
+      .s{font-size:12px;fill:#57606a;text-anchor:middle}
+      .m{font-family:Menlo,Consolas,monospace;font-size:12.5px;fill:#1f2328}
+      .ln{stroke:#57606a;stroke-width:1.6;fill:none;marker-end:url(#a)}
+    </style>
+  </defs>
+  <rect width="960" height="300" fill="#ffffff"/>
+  <text x="480" y="28" font-size="18" font-weight="700" fill="#1f2328" text-anchor="middle">Contextual Collocation Augmentation (C2A)</text>
+
+  <rect x="10" y="55" width="190" height="90" rx="10" fill="#f6f8fa" stroke="#d0d7de" stroke-width="1.5"/>
+  <text class="t" x="105" y="82">Clean text</text>
+  <text class="s" x="105" y="104">lower-case · no links</text>
+  <text class="s" x="105" y="121">Hindi: keep emojis 😂</text>
+
+  <rect x="225" y="55" width="200" height="90" rx="10" fill="#fff8c5" stroke="#d4a72c" stroke-width="1.5"/>
+  <text class="t" x="325" y="82">Top bigrams</text>
+  <text class="s" x="325" y="104">CountVectorizer(2,2)</text>
+  <text class="s" x="325" y="121">fitted on training split</text>
+
+  <rect x="450" y="55" width="250" height="90" rx="10" fill="#ddf4ff" stroke="#54aeff" stroke-width="1.5"/>
+  <text class="t" x="575" y="82">Append as single tokens</text>
+  <text class="m" x="465" y="108">"as a single token"</text>
+  <text class="m" x="465" y="128">→ "… single_token"</text>
+
+  <rect x="725" y="40" width="225" height="54" rx="8" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text class="t" x="837" y="62">TF-IDF + classical ML</text>
+  <text class="s" x="837" y="80">GB · LR · Ridge · NB · RF</text>
+  <rect x="725" y="108" width="225" height="54" rx="8" fill="#dafbe1" stroke="#4ac26b" stroke-width="1.5"/>
+  <text class="t" x="837" y="130">Fine-tuned transformers</text>
+  <text class="s" x="837" y="148">BERT · RoBERTa · mBERT · XLM-R · LaBSE</text>
+
+  <path class="ln" d="M200,100 H222"/>
+  <path class="ln" d="M425,100 H447"/>
+  <path class="ln" d="M700,100 C712,100 712,67 722,67"/>
+  <path class="ln" d="M700,100 C712,100 712,135 722,135"/>
+
+  <rect x="120" y="190" width="720" height="80" rx="10" fill="#ffffff" stroke="#d0d7de" stroke-dasharray="4 3"/>
+  <text class="t" x="480" y="216">Best F1 with C2A</text>
+  <text class="s" x="480" y="240">Hindi: Ridge / NB / LaBSE 0.97 (from 0.79–0.84)   ·   English: NB 0.96, Ridge 0.94 (from 0.82–0.85)</text>
+  <text class="s" x="480" y="258">Largest gains for classical ML on Hindi, where sarcasm is phrase-based ("वाह क्या बात है …")</text>
+</svg>

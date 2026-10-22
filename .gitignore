@@ -1,0 +1,14 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+outputs/
+.DS_Store
+
+# Datasets are downloaded from Hugging Face / Kaggle, not committed
+data/*.json
+data/*.jsonl
+data/*.csv

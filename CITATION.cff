@@ -1,0 +1,57 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite the paper below."
+title: "Interpretable Sarcasm Detection via Contextual Collocation Augmentation (C2A)"
+repository-code: "https://github.com/marif561/Interpretable_Sarcasm_Detection"
+license: MIT
+authors:
+  - family-names: Abiola
+    given-names: T. O.
+  - family-names: Arif
+    given-names: Muhammad
+  - family-names: Oredeko
+    given-names: O. B.
+  - family-names: Obiadoh
+    given-names: A. E.
+  - family-names: Tewodros
+    given-names: A. B.
+  - family-names: Ojo
+    given-names: O. E.
+  - family-names: Sánchez-Mejorada
+    given-names: Carlos Guzmán
+  - family-names: Sidorov
+    given-names: G.
+  - family-names: Maldonado-Sifuentes
+    given-names: C. E.
+  - family-names: Calvo
+    given-names: H.
+keywords: [sarcasm detection, contextual collocation augmentation, feature engineering, transformer models, Hindi, interpretability]
+preferred-citation:
+  type: article
+  title: "From Word Pairs to Context: Interpretable Sarcasm Detection via Contextual Collocation Augmentation (C2A)"
+  journal: "Procedia Computer Science"
+  volume: 275
+  start: 447
+  end: 454
+  year: 2026
+  doi: "10.1016/j.procs.2026.01.054"
+  authors:
+    - family-names: Abiola
+      given-names: T. O.
+    - family-names: Arif
+      given-names: Muhammad
+    - family-names: Oredeko
+      given-names: O. B.
+    - family-names: Obiadoh
+      given-names: A. E.
+    - family-names: Tewodros
+      given-names: A. B.
+    - family-names: Ojo
+      given-names: O. E.
+    - family-names: Sánchez-Mejorada
+      given-names: Carlos Guzmán
+    - family-names: Sidorov
+      given-names: G.
+    - family-names: Maldonado-Sifuentes
+      given-names: C. E.
+    - family-names: Calvo
+      given-names: H.

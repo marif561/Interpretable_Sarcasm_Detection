@@ -1,0 +1,13 @@
+language,model,class,nofe_precision,nofe_recall,nofe_f1,c2a_precision,c2a_recall,c2a_f1
+English,BERT,0,0.96,0.91,0.94,0.94,0.95,0.95
+English,BERT,1,0.91,0.96,0.93,0.95,0.93,0.94
+English,RoBERTa,0,0.95,0.93,0.94,0.93,0.96,0.94
+English,RoBERTa,1,0.92,0.95,0.93,0.95,0.92,0.94
+English,DistilBERT,0,0.95,0.91,0.93,0.94,0.94,0.94
+English,DistilBERT,1,0.91,0.95,0.93,0.94,0.94,0.94
+Hindi,mBERT,0,0.89,0.78,0.83,0.96,0.96,0.96
+Hindi,mBERT,1,0.79,0.90,0.84,0.96,0.96,0.96
+Hindi,XLM-RoBERTa,0,0.88,0.77,0.82,0.95,0.95,0.95
+Hindi,XLM-RoBERTa,1,0.79,0.88,0.83,0.95,0.95,0.95
+Hindi,LaBSE,0,0.88,0.79,0.83,0.96,0.97,0.97
+Hindi,LaBSE,1,0.80,0.89,0.84,0.97,0.96,0.97

@@ -1,0 +1,28 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "c2a"
+version = "1.0.0"
+description = "Interpretable sarcasm detection via Contextual Collocation Augmentation (C2A)"
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [
+  { name = "Abiola T. O." }, { name = "Muhammad Arif" }, { name = "Oredeko O. B." }, { name = "Obiadoh A. E." },
+  { name = "Tewodros A. B." }, { name = "Ojo O. E." }, { name = "Carlos Guzmán Sánchez-Mejorada" },
+  { name = "G. Sidorov" }, { name = "C. E. Maldonado-Sifuentes" }, { name = "Calvo H." },
+]
+dependencies = ["numpy", "pandas", "scikit-learn>=1.2"]
+
+[project.optional-dependencies]
+transformers = ["torch>=2.0", "transformers>=4.41", "datasets>=2.14", "accelerate>=0.25"]
+plots = ["matplotlib>=3.7"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+testpaths = ["tests"]

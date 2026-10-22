@@ -1,0 +1,7 @@
+work,dataset,approach,result
+Gedela et al. (2024),English news headlines,"BERT contextual embeddings with CNN, BiLSTM, SVM and RF",94.89% accuracy
+Karkiner and Sert (2024),Sarcastic/non-sarcastic headlines,"BERT, RNN, LSTM, GRU",BERT 88% accuracy; RNN most efficient
+Thambi et al. (2024),Various datasets,"XGBoost, AdaBoost, BiLSTM, CNN, RNN","RNN 79% accuracy, 0.76 F1"
+Prasad et al. (2024),Journalistic dataset,"XGBoost, BiLSTM, LSTM, BERT with GloVe and FastText",XGBoost best; BiLSTM 86% accuracy
+Pradhan et al. (2024),Sarcasm dataset,13 handcrafted linguistic features + Gradient Boosting and SVM,93% accuracy; +5% F1
+This work,English news headlines & Hindi Twitter,C2A (bigram-augmented TF-IDF) with TML and transformers,"TML 96-97% F1; C2A-enhanced BERT 94%; LaBSE 97% F1"

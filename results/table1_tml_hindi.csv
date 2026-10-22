@@ -1,0 +1,11 @@
+model,class,tfidf_precision,tfidf_recall,tfidf_f1,c2a_precision,c2a_recall,c2a_f1
+Gradient Boosting,0,0.75,0.81,0.78,0.78,0.91,0.84
+Gradient Boosting,1,0.78,0.71,0.74,0.90,0.75,0.82
+Logistic Regression,0,0.81,0.80,0.80,0.93,0.98,0.96
+Logistic Regression,1,0.79,0.80,0.79,0.98,0.93,0.96
+Ridge,0,0.83,0.80,0.82,0.96,0.99,0.97
+Ridge,1,0.79,0.83,0.81,0.99,0.96,0.97
+Naive Bayes,0,0.87,0.65,0.74,0.98,0.96,0.97
+Naive Bayes,1,0.71,0.89,0.79,0.97,0.98,0.97
+Random Forest,0,0.85,0.83,0.84,0.93,0.97,0.95
+Random Forest,1,0.83,0.84,0.84,0.97,0.93,0.95

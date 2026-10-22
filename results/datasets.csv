@@ -1,0 +1,3 @@
+dataset,language,source,unique_samples,sarcastic,non_sarcastic,text_column,label_column
+News Headlines Dataset for Sarcasm Detection,English,Hugging Face / Kaggle (Misra & Arora),28607,13633,14984,headline,is_sarcastic
+Hindi sarcasm Twitter corpus,Hindi,Kaggle,19955,9962,9962,hindi_text,is_sarcastic
